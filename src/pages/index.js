@@ -1,8 +1,9 @@
 import styles from './index.css';
 
 
-export default function () {
+export default function (props) {
 
+  const { title } = this.props
 
   let demo = '123';
   demo.title = 0;
