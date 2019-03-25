@@ -3,9 +3,10 @@ import styles from './index.css';
 
 export default function () {
 
-  console.log("hhhhhh");
-  let demo = '';
 
+  let demo = '123';
+  demo.title = 0;
+  console.log("hhhhhh", demo);
   return (
     <div className={styles.normal}>
       <div className={styles.welcome} />
