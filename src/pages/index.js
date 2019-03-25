@@ -1,7 +1,5 @@
 import styles from './index.css';
-// {
-//   "extends": "eslint-config-umi"
-// }
+
 
 export default function (props) {
 
