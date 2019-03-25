@@ -29,7 +29,13 @@
     "*.{js,jsx}": [
       "eslint --fix",
       "git add"
-    ]
+    ],
+    "linters": {
+      "static/js/**/*.js": [
+        "./node_modules/.bin/eslint --fix",
+        "git add"
+      ]
+    }
   },
   "engines": {
     "node": ">=8.0.0"
