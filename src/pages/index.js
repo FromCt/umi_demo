@@ -1,5 +1,8 @@
 import styles from './index.css';
-
+// "*.{js,jsx}": [
+//   "eslint --fix",
+//   "git add"
+// ],
 
 export default function (props) {
 

@@ -5,7 +5,9 @@
     "build": "umi build",
     "test": "umi test",
     "lint": "eslint --ext .js src mock tests",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "lint-staged": "lint-staged",
+    "lint-staged:js": "eslint --ext .js"
   },
   "dependencies": {
     "react": "^16.7.0",
@@ -26,10 +28,6 @@
     "umi-plugin-react": "^1.4.0"
   },
   "lint-staged": {
-    "*.{js,jsx}": [
-      "eslint --fix",
-      "git add"
-    ],
     "linters": {
       "static/js/**/*.js": [
         "./node_modules/.bin/eslint --fix",
