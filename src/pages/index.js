@@ -1,7 +1,11 @@
 import styles from './index.css';
 
 
-export default function() {
+export default function () {
+
+  console.log("hhhhhh");
+  let demo = '';
+
   return (
     <div className={styles.normal}>
       <div className={styles.welcome} />
@@ -9,7 +13,7 @@ export default function() {
         <li>To get started, edit <code>src/pages/index.js</code> and save to reload.</li>
         <li>
           <a href="https://umijs.org/guide/getting-started.html">
-            Getting Started
+            开始学习
           </a>
         </li>
       </ul>
