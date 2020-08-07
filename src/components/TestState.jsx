@@ -8,6 +8,8 @@ export default class TestState extends React.Component {
       name: `tt`,
       age: '12',
       src: 'https://www.baidu.com',
+      abc: 12,
+      bb: '123',
     };
   }
 
@@ -44,7 +46,7 @@ export default class TestState extends React.Component {
             });
           }}
         >
-          {' '}
+          {' 1231231'}
           change{' '}
         </Button>
         <p>
